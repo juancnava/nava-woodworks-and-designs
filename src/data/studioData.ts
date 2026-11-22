@@ -687,6 +687,17 @@ export const GALLERY_ARTIFACTS: GalleryArtifact[] = [
     pptxUrl: '/assets/aistudio/Del_Pixel_a_la_Madera.pptx',
     pptxLabel: 'Descargar Presentación (PPTX)',
   },
+  {
+    id: 'base-con-movimiento',
+    group: 'banca',
+    title: 'Base con Movimiento',
+    category: 'Diseño Mecánico',
+    year: 'Serie Funcional',
+    caption: 'Base artesanal animada que muestra el movimiento y los ensambles estructurales de la pieza.',
+    image: '/assets/aistudio/Base con movimiento.gif',
+    alt: 'Animación de una base artesanal de madera con movimiento',
+    fitMode: 'cover',
+  },
 ];
 
 export interface ProductLineItem {
